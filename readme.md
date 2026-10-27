@@ -9,7 +9,7 @@ rv-life's unchanged fork of Folklore's `folklore/image`, a Composer package that
 - First commit: 2014-01-25. Last commit before this README: 2019-01-22, by David Mongeau-Petitpas (merge of upstream pull request #45, committed through GitHub).
 - Most commits: David Mongeau-Petitpas (132, under three email addresses), Maurice van der Star (5, under two addresses), Stefano Forenza (5). Counted on `master`.
 - Fork history: rv-life has never changed this fork. `master` and `develop` are the same commit as `upstream/master` (146ba27, tag `v0.3.25`): nothing ahead, nothing behind. The other branches carry commits that are not in `upstream/master` (`feature/metadatareader` 1, `feature/proxy` 0, `v1` 180, `v1.1` 179, `v1.2` 186), but every one of them, 189 in all, was written by David Mongeau-Petitpas, Folklore's developer; the only other committer is GitHub's web editor (bc6c3db, 2018-01-03, also his). No commit on any branch is by anyone at rv-life. These look like copies of Folklore's own branches; the `upstream` remote, as fetched, now has only `master`.
-- Cleanup decision: not yet decided.
+- Cleanup decision: Archive, as given by the person running this prompt on 2026-10-26: no rv-life repository installs this fork, and it carries no rv-life changes (upstream folkloreinc/laravel-image-legacy holds the same code).
 
 ## Owner
 - Unknown. Claimed for the audit by Freddie Bingham on 2026-10-26. There is no CODEOWNERS file, and git history shows only Folklore's authors (the original package is by Folklore and David Mongeau-Petitpas, per `composer.json`).
